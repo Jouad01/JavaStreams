@@ -5,7 +5,7 @@ import edu.daw.Streams.RutaInvalida;
 
 import java.util.Scanner;
 
-public class App {
+public class MenuStreams {
 
     LecturaEscrituraStreams lecturaEscrituraStreams = new LecturaEscrituraStreams();
     public static void main(String[] args) throws RutaInvalida {
@@ -46,7 +46,7 @@ public class App {
                 default:
                     System.out.println("Opción incorrecta");
             }
-        } while (opcion != 5);
+        } while (opcion != 6);
             input.close();
     }
 
